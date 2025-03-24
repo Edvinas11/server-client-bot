@@ -1,7 +1,6 @@
 ## STRUCTURE
 
 ### Central server
-- maintains a list of registered clients
 - collects incoming messages (forwarded by the three servers)
 
 ### Three servers each listening on a different port
@@ -10,5 +9,5 @@
 - The servers themselves don’t do the bad-word check
 
 ### Admin bot client that connects to the central server that
-- registers a new user
+- maintains a list of registered clients
 - blacklists a user if the user says something bad in 1min interval after joining
