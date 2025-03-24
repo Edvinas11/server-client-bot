@@ -2,7 +2,6 @@
 
 ### Central server
 - maintains a list of registered clients
-- maintains a list of bad words
 - collects incoming messages (forwarded by the three servers)
 
 ### Three servers each listening on a different port
